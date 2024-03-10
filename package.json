@@ -1,0 +1,21 @@
+{
+  "name": "@fahrschule2app/api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "dotenv -- tsx watch src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.8.2",
+    "dotenv-cli": "^7.4.1",
+    "hono": "^4.0.9"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^3.12.2",
+    "typescript": "^5.4.2"
+  }
+}
